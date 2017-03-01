@@ -14,7 +14,8 @@ body {
 }
 
 #header{
-  color:white;
+  color:black;
+  text-decoration: underline;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -156,22 +157,14 @@ body {
 
 
 
-#################################
-#custom-search-input{
-    width: 430px;
-    padding: 3px;
-    border: solid 1px #E4E4E4;
-    border-radius: 6px;
-    background-color: #fff;
-}
-
-#custom-search-input input{
+################################
+ input{
     width: 380px;
     border: 0;
     box-shadow: none;
 }
 
-#custom-search-input button{
+ button{
     margin: 2px 0 0 0;
     background: none;
     box-shadow: none;
@@ -181,43 +174,12 @@ body {
     border-left: solid 1px #ccc;
 }
 
-#custom-search-input button:hover{
-    border: 0;
-    box-shadow: none;
-    border-left: solid 1px #ccc;
+button:hover{
+  background: rgba(0,0,0,0);
+color: #3a7999;
+box-shadow: inset 0 0 0 3px #3a7999;
 }
 
-#custom-search-input .glyphicon-search{
-    font-size: 23px;
-}
-########################################
-.orange-circle-button {
-	box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
-	border: .5em solid #E84D0E;
-	font-size: 1em;
-	line-height: 1.1em;
-	color: #e84d0e;
-	background-color: #e84d0e;
-	margin: auto;
-	border-radius: 50%;
-	height: 7em;
-	width: 7em;
-	position: relative;
-}
 
-.orange-circle-button:hover {
-	color:#ffffff;
-  background-color: #e84d0e;
-	text-decoration: none;
-	border-color: #ff7536;
 
-}
-.orange-circle-button:visited {
-	color:#ffffff;
-  background-color: #e84d0e;
-	text-decoration: none;
-
-}
-.orange-circle-link-greater-than {
-    font-size: 1em;
-}
+#########################################
